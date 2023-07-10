@@ -2,8 +2,8 @@ const generatememeBtn = document.querySelector(".meme_gen_btn");
 const memeImg = document.querySelector(".memeimg");
 const memeTitl = document.querySelector(".meme_title");
 
-//generate meme
 
+//Generate meme function
 const generateMeme = () => {
   fetch("https://meme-api.com/gimme/wholesomememes")
     .then((resp) => resp.json())
